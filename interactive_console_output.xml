@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20240802 21:33:16.611" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\hungtq\.vscode\extensions\robocorp.robotframework-lsp-1.12.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Create List" library="BuiltIn">
+<var>${data}</var>
+<arg>123</arg>
+<arg>345</arg>
+<arg>456</arg>
+<arg>678</arg>
+<arg>789</arg>
+<doc>Returns a list containing given items.</doc>
+<msg timestamp="20240802 21:33:17.074" level="INFO">${data} = ['123', '345', '456', '678', '789']</msg>
+<status status="PASS" starttime="20240802 21:33:17.074" endtime="20240802 21:33:17.074"/>
+</kw>
+<kw name="Set Out Arg">
+<arg>datas</arg>
+<arg>${data}</arg>
+<msg timestamp="20240802 21:33:17.075" level="FAIL">No keyword with name 'Set Out Arg' found.</msg>
+<status status="FAIL" starttime="20240802 21:33:17.075" endtime="20240802 21:33:17.075"/>
+</kw>
+<status status="PASS" starttime="20240802 21:33:16.630" endtime="20240802 21:33:21.229"/>
+</kw>
+<status status="PASS" starttime="20240802 21:33:16.630" endtime="20240802 21:33:21.229"/>
+</test>
+<status status="PASS" starttime="20240802 21:33:16.612" endtime="20240802 21:33:21.230"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,37 @@
+{
+    "invoice_file_path": {
+        "name": "invoice_file_path",
+        "type": "File",
+        "direction": "IN",
+        "value": "D:/Rainscales/RPA-Example/rs_examples-ap_odoo_invoice-enter_data_into_odoo/data/BRAMMER(ORX)_166678_184132.pdf",
+        "required": true
+    },
+    "invoice_data": {
+        "name": "invoice_data",
+        "type": "JSON",
+        "direction": "IN",
+        "value": "{\"vendor\":{\"value\":\"ACA001: ACADIANA COATINGS & SUPPLY, INC.\",\"confidence\":100},\"invoiceNumber\":{\"value\":\"166835\",\"confidence\":100},\"term\":{\"value\":\"30 Days\",\"confidence\":100},\"invoiceDate\":{\"value\":\"2022-10-11 00:00:00\",\"confidence\":100},\"items\":[{\"itemName\":{\"value\":\"FTS318-C-75 FILTER\\nTAG: JUDGE DIGBY\",\"confidence\":100},\"quantity\":{\"value\":24,\"confidence\":100},\"price\":{\"value\":19.99,\"confidence\":100}}],\"salesTax\":{\"value\":8.45,\"confidence\":100}}",
+        "required": true
+    },
+    "status_robot": {
+        "name": "status_robot",
+        "type": "Boolean",
+        "direction": "OUT",
+        "value": "True",
+        "required": true
+    },
+    "invoice_number": {
+        "name": "invoice_number",
+        "type": "String",
+        "direction": "OUT",
+        "value": "1666798199",
+        "required": true
+    },
+    "dupplicate_voucher": {
+        "name": "dupplicate_voucher",
+        "type": "String",
+        "direction": "OUT",
+        "value": "False",
+        "required": true
+    }
+}
